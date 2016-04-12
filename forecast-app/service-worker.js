@@ -6,9 +6,11 @@ var cacheName = 'forecast-app-v1';
 var dataCacheName = 'forecast-app-data-v1';
 var filesToCache = [
   '/',
-  'index.html',
-  'app.js',
-  'styles.css',
+  '/forecast-app/',
+  '/index.html',
+  '/forecast-app/index.html',
+  '/forecast-app/app.js',
+  '/forecast-app/styles.css',
   'images/clear.png',
   'images/cloudy-scattered-showers.png',
   'images/cloudy.png',
