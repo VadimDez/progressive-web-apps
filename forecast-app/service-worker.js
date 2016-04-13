@@ -5,24 +5,24 @@
 var cacheName = 'forecast-app-v1';
 var dataCacheName = 'forecast-app-data-v1';
 var filesToCache = [
-  '/forecast-app/',
-  '/forecast-app/index.html',
-  '/forecast-app/index.html',
-  '/forecast-app/app.js',
-  '/forecast-app/styles.css',
-  '/forecast-app/images/clear.png',
-  '/forecast-app/images/cloudy-scattered-showers.png',
-  '/forecast-app/images/cloudy.png',
-  '/forecast-app/images/fog.png',
-  '/forecast-app/images/ic\_add\_white\_24px.svg',
-  '/forecast-app/images/ic\_refresh\_white\_24px.svg',
-  '/forecast-app/images/partly-cloudy.png',
-  '/forecast-app/images/rain.png',
-  '/forecast-app/images/scattered-showers.png',
-  '/forecast-app/images/sleet.png',
-  '/forecast-app/images/snow.png',
-  '/forecast-app/images/thunderstorm.png',
-  '/forecast-app/images/wind.png'
+  '/progressive-web-apps/forecast-app/',
+  '/progressive-web-apps/forecast-app/index.html',
+  '/progressive-web-apps/forecast-app/index.html',
+  '/progressive-web-apps/forecast-app/app.js',
+  '/progressive-web-apps/forecast-app/styles.css',
+  '/progressive-web-apps/forecast-app/images/clear.png',
+  '/progressive-web-apps/forecast-app/images/cloudy-scattered-showers.png',
+  '/progressive-web-apps/forecast-app/images/cloudy.png',
+  '/progressive-web-apps/forecast-app/images/fog.png',
+  '/progressive-web-apps/forecast-app/images/ic\_add\_white\_24px.svg',
+  '/progressive-web-apps/forecast-app/images/ic\_refresh\_white\_24px.svg',
+  '/progressive-web-apps/forecast-app/images/partly-cloudy.png',
+  '/progressive-web-apps/forecast-app/images/rain.png',
+  '/progressive-web-apps/forecast-app/images/scattered-showers.png',
+  '/progressive-web-apps/forecast-app/images/sleet.png',
+  '/progressive-web-apps/forecast-app/images/snow.png',
+  '/progressive-web-apps/forecast-app/images/thunderstorm.png',
+  '/progressive-web-apps/forecast-app/images/wind.png'
 ];
 
 self.addEventListener('install', function (e) {
