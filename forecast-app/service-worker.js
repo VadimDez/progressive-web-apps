@@ -5,25 +5,24 @@
 var cacheName = 'forecast-app-v1';
 var dataCacheName = 'forecast-app-data-v1';
 var filesToCache = [
-  '/',
   '/forecast-app/',
-  '/index.html',
+  '/forecast-app/index.html',
   '/forecast-app/index.html',
   '/forecast-app/app.js',
   '/forecast-app/styles.css',
-  'images/clear.png',
-  'images/cloudy-scattered-showers.png',
-  'images/cloudy.png',
-  'images/fog.png',
-  'images/ic\_add\_white\_24px.svg',
-  'images/ic\_refresh\_white\_24px.svg',
-  'images/partly-cloudy.png',
-  'images/rain.png',
-  'images/scattered-showers.png',
-  'images/sleet.png',
-  'images/snow.png',
-  'images/thunderstorm.png',
-  'images/wind.png'
+  '/forecast-app/images/clear.png',
+  '/forecast-app/images/cloudy-scattered-showers.png',
+  '/forecast-app/images/cloudy.png',
+  '/forecast-app/images/fog.png',
+  '/forecast-app/images/ic\_add\_white\_24px.svg',
+  '/forecast-app/images/ic\_refresh\_white\_24px.svg',
+  '/forecast-app/images/partly-cloudy.png',
+  '/forecast-app/images/rain.png',
+  '/forecast-app/images/scattered-showers.png',
+  '/forecast-app/images/sleet.png',
+  '/forecast-app/images/snow.png',
+  '/forecast-app/images/thunderstorm.png',
+  '/forecast-app/images/wind.png'
 ];
 
 self.addEventListener('install', function (e) {
