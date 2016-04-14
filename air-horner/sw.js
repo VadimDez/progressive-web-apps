@@ -9,14 +9,14 @@ self.addEventListener('install', function (e) {
     caches.open('airhorner')
       .then(function (cache) {
         return cache.addAll([
-          '/',
-          '/index.html',
-          '/index.html?homescreen=1',
-          '/?homescreen=1',
-          '/styles/main.css',
-          '/scripts/main.min.js',
-          '/scripts/index.js',
-          '/sounds/airhorn.mp3'
+          '/progressive-web-apps/air-horner/',
+          '/progressive-web-apps/air-horner/index.html',
+          '/progressive-web-apps/air-horner/index.html?homescreen=1',
+          '/progressive-web-apps/air-horner/?homescreen=1',
+          '/progressive-web-apps/air-horner/styles/main.css',
+          '/progressive-web-apps/air-horner/scripts/main.min.js',
+          '/progressive-web-apps/air-horner/scripts/index.js',
+          '/progressive-web-apps/air-horner/sounds/airhorn.mp3'
         ]);
       })
   )
