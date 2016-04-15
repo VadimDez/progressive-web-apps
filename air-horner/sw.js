@@ -2,7 +2,7 @@
  * Created by vadimdez on 12/04/16.
  */
 
-importScripts('/cache-polyfill.js');
+importScripts('cache-polyfill.js');
 
 self.addEventListener('install', function (e) {
   e.waitUntil(
